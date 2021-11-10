@@ -9,7 +9,7 @@ import { getNft } from "./getNFT_Metadata.js";
 
 const app = express();
 const logger = morgan("combined")
-const PORT = 3004;
+const PORT = 3001;
 
 app.use(cors());
 app.use(logger);
