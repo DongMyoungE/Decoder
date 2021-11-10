@@ -1,0 +1,29 @@
+{
+  "name": "nftdecoder",
+  "version": "1.0.0",
+  "main": "decodeMetadata.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node server2.js",
+    "start": "PORT=80 pm2 start server2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "@solana/spl-token": "^0.1.8",
+    "@solana/web3.js": "^1.30.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "pm2": "^5.1.2",
+    "winston": "^3.3.3"
+  },
+  "type": "module"
+}

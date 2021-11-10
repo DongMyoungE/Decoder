@@ -1,0 +1,46 @@
+Arguments: 
+  /home/dong/.nvm/versions/node/v16.10.0/bin/node /mnt/c/Users/DongMyoung/AppData/Roaming/npm/node_modules/yarn/bin/yarn.js add @bable/core
+
+PATH: 
+  /home/dong/.yarn/bin:/home/dong/.local/share/solana/install/active_release/bin:/home/dong/.vscode-server/bin/b3318bc0524af3d74034b8bb8a64df0ccf35549a/bin:/home/dong/.yarn/bin:/home/dong/.local/share/solana/install/active_release/bin:/home/dong/.nvm/versions/node/v16.10.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/DongMyoung/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/DongMyoung/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/DongMyoung/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DongMyoung/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DongMyoung/AppData/Roaming/npm:/mnt/c/Users/DongMyoung/Desktop/solana-release/bin:/mnt/c/Program Files/MongoDB/Server/5.0/bin:/mnt/c/Users/DongMyoung/Desktop/Solana/metaplex/js/packages/cli/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@bable%2fcore: Not found
+      at Request.params.callback [as _callback] (/mnt/c/Users/DongMyoung/AppData/Roaming/npm/node_modules/yarn/lib/cli.js:66140:18)
+      at Request.self.callback (/mnt/c/Users/DongMyoung/AppData/Roaming/npm/node_modules/yarn/lib/cli.js:140885:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/mnt/c/Users/DongMyoung/AppData/Roaming/npm/node_modules/yarn/lib/cli.js:141857:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/mnt/c/Users/DongMyoung/AppData/Roaming/npm/node_modules/yarn/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "nftdecoder",
+    "version": "1.0.0",
+    "description": "",
+    "main": "decodeMetadata.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
