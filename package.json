@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --exec babel-node server2.js",
-    "start": "PORT=80 pm2 start server2.js"
+    "start": "PORT=80 pm2 start server2.js -i 0"
   },
   "author": "",
   "license": "ISC",
